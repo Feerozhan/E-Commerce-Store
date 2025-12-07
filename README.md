@@ -6,7 +6,7 @@ A sleek, modern, and fully responsive e-commerce front-end application enabling 
 
 ## 🌐 Live Demo
 
-🔗 **Live Preview:** https://regal-pixie-c6e885.netlify.app/) 
+🔗 **Live Preview:** https://regal-pixie-c6e885.netlify.app/
 > 
 
 ---
