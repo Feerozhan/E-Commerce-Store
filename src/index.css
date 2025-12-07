@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 25% 10%;
+    --foreground: 0 0% 100%;
+
+    --card: 220 20% 15%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 245 100% 69%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 189 100% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 323 100% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 220 20% 25%;
+    --muted-foreground: 220 10% 70%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 25%;
+    --input: 220 20% 20%;
+    --ring: 245 100% 69%;
+
+    --radius: 1rem;
+
+    /* Gradient tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(245, 100%, 69%), hsl(189, 100%, 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(189, 100%, 50%), hsl(323, 100%, 62%));
+    --gradient-accent: linear-gradient(135deg, hsl(245, 100%, 69%), hsl(323, 100%, 62%));
+    --gradient-full: linear-gradient(135deg, hsl(245, 100%, 69%), hsl(189, 100%, 50%), hsl(323, 100%, 62%));
+
+    /* Glow effects */
+    --glow-primary: 0 0 40px hsl(245, 100%, 69% / 0.5);
+    --glow-secondary: 0 0 40px hsl(189, 100%, 50% / 0.5);
+    --glow-accent: 0 0 40px hsl(323, 100%, 62% / 0.5);
+
+    /* Glass effects */
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
