@@ -55,8 +55,8 @@ npm install
 npm run dev
 
 
-
 ---
 ## 👑 Developed & Designed By  
-### **Feeroz Khan**
+### 🌟 **Feeroz Khan** 🌟
 ---
+
