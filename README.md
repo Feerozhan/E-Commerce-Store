@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Store Front
+# 🛍️ E-Commerce Store 
 
 A sleek, modern, and fully responsive e-commerce front-end application enabling users to explore products, view details, manage cart items, and complete checkout with a seamless shopping experience.
 
