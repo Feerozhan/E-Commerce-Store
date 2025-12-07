@@ -7,7 +7,7 @@ A sleek, modern, and fully responsive e-commerce front-end application enabling 
 ## 🌐 Live Demo
 
 🔗 **Live Preview:** https://regal-pixie-c6e885.netlify.app/) 
-> *(Replace with your hosted link when deployed)*  
+> 
 
 ---
 
@@ -53,3 +53,10 @@ npm install
 
 # 4. Start development server
 npm run dev
+
+
+
+---
+## 👑 Developed & Designed By  
+### **Feeroz Khan**
+---
